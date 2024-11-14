@@ -1,0 +1,8 @@
+[AsteriskManager]
+host = 1.2.3.4
+username = user
+secret = pass
+port = 5038
+
+[GrusherData]
+path = '/var/www/html'
