@@ -140,7 +140,6 @@ if($asterisk_type == 1){//ast > 11
 				//Skipping out numbers
 	        	include (dirname(__FILE__)."/local_phones.php");
 	        	if (in_array(trim($amiEvent['CallerIDNum']), $local_phones)){
-	        	if (in_array(trim($amiEvent['CallerIDNum']), $local_phones)){
 		            $call_direction = "OUT";
 		            echo color("OUT CALL: ".$amiEvent['CallerIDNum'] ." - Ignoring", 'light red');
 	        	}else{
@@ -159,6 +158,7 @@ if($asterisk_type == 1){//ast > 11
 			// call go to operator
 			case "Newstate":
 				if(isset($amiEvent['ChannelState']) and ($amiEvent['ChannelState'] == 5)){
+					//print_r($amiEvent);
 					echo color("Event: ".$amiEvent['Event'], 'light blue');
 					@preg_match_all("/\D*\/(\d*)[-@]\d*/", $amiEvent['Channel'],$match);
 					$phone_called_to = 0;
@@ -166,15 +166,16 @@ if($asterisk_type == 1){//ast > 11
 						$phone_called_to = $match[1][0];
 					}
 					$data =[
-						'type' => "call_called",
-						'call_called' => $phone_called_to,
+						'type' => "call_to_operator",
+						'call_called' => $amiEvent['ConnectedLineNum'],
+						'call_called_to' => $phone_called_to,
 						'uniq_id' => $amiEvent['Uniqueid'],
 					];
 					$data = json_encode($data);
-					echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
+					echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
 					echo color("Sending to Grusher: ".$data, 'light green');
-					$amiEvent['Event'] = null;
 				}
+				$amiEvent['Event'] = null;
 			break;
 			// call go to operator and operator is answered
 			case "AgentConnect":
@@ -192,7 +193,7 @@ if($asterisk_type == 1){//ast > 11
 					'uniq_id' => $amiEvent['Uniqueid'],
 				];
 				$data = json_encode($data);
-				echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
+				echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
 				echo color("Sending to Grusher: ".$data, 'light green');
 				$amiEvent['Event'] = null;
 			break;
@@ -206,7 +207,7 @@ if($asterisk_type == 1){//ast > 11
 					'uniq_id' => $amiEvent['Uniqueid'],
 				];
 				$data = json_encode($data);
-				echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
+				echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
 				echo color("Sending to Grusher: ".$data, 'light green');
 				$amiEvent['Event'] = null;
 			break;
@@ -228,6 +229,7 @@ if($asterisk_type == 1){//ast > 11
 			break;
 		}
 	}while ( Utils::check_asterisk_status() );
+
 }else if($asterisk_type == 3){ //ast > 11
 	$event = [
 		'Newchannel',
