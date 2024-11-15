@@ -8,6 +8,7 @@ echo color("Starting Grusher Asterisk AMI", 'light yellow');
 $configFileName = "config.ini";
 $config = parse_ini_file($configFileName, true);
 $GrusherDataPath = $config['GrusherData']['path'];
+$asterisk_type = $config['GrusherData']['asterisk_type'];
 echo color("Grusher path $GrusherDataPath", 'light yellow');
 $php_path = exec ('which php');
 echo color("PHP path $php_path", 'light yellow');
@@ -35,92 +36,317 @@ echo color("Locking file", 'light blue');
 ftruncate($lock_file, 0);
 fwrite($lock_file, getmypid() . "\n");
 echo color("Connecting to Asterisk and waiting for responce", 'light yellow');
-$event = [
-	//'All',
-	'NewCallerid',
-	'AgentConnect',
-	'AgentComplete',
-	'SoftHangupRequest',
-];
-echo color("Waiting for this events: ".implode (", ", $event), 'light yellow');
-$ami = new Ami();
 
-//Filter some events or All;
+if($asterisk_type == 1){//ast > 11
+	$event = [
+		'NewCallerid', // ??
+		'Newchannel',
+		'BridgeEnter',
+		'BridgeLeave',
+	];
+	echo color("Waiting for this events: ".implode (", ", $event), 'light yellow');
+	$ami = new Ami();
 
-do {
-	switch ( @$amiEvent['Event'] ) {
-		// call go to asterisk
-		case "NewCallerid":
-			echo color("Event: ".$amiEvent['Event'], 'light blue');
-        	//include ("./local_phones.php");
-        	//if (in_array($amiEvent['CallerIDNum'], $local_phones)){
-	        //    $call_direction = "OUT";
-        	//}else{
-	        	$call_direction = "IN";
-	        	$data =[
-	        		'type' => $amiEvent['Event'],
-	        		'phone_called' => $amiEvent['CallerIDNum'],
+	//Filter some events or All;
+
+	do {
+		switch ( @$amiEvent['Event'] ) {
+			// call go to asterisk
+			case "Newchannel":
+				if(isset($amiEvent['ChannelState']) and ($amiEvent['ChannelState'] == 4)){
+					print_r($amiEvent);
+					$data =[
+		        		'type' => "call_new",
+		        		'phone_called' => $amiEvent['Exten'],
+		        		'uniq_id' => $amiEvent['Uniqueid'],
+		        	];
+		        	$data = json_encode($data);
+		        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+		        	echo color("Sending to Grusher: ".$data, 'light green');
+					$amiEvent['Event'] = null;
+				}
+			break;
+			case "NewCallerid":
+				if(isset($amiEvent['ChannelState']) and ($amiEvent['ChannelState'] == 4)){
+					print_r($amiEvent);
+					$data =[
+		        		'type' => "call_new",
+		        		'phone_called' => $amiEvent['Exten'],
+		        		'uniq_id' => $amiEvent['Uniqueid'],
+		        	];
+		        	$data = json_encode($data);
+		        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+		        	echo color("Sending to Grusher: ".$data, 'light green');
+					$amiEvent['Event'] = null;
+				}
+			break;
+			case "BridgeEnter":
+				if(isset($amiEvent['ChannelState']) and isset($amiEvent['BridgeNumChannels']) and ($amiEvent['ChannelState'] == 6)){
+					echo color("Event: ".$amiEvent['Event'], 'light blue');
+					@preg_match_all("/\D*\/(\d*)[-@]\d*/", $amiEvent['Channel'],$match);
+					$phone_answered = 0;
+					if(isset($match[1]) and isset($match[1][0])){
+						$phone_answered = $match[1][0];
+					}
+					$data =[
+		        		'type' => "call_answer",
+		        		'phone_answered' => $phone_answered,
+		        		'uniq_id' => $amiEvent['Uniqueid'],
+		        	];
+		        	$data = json_encode($data);
+		        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+		        	echo color("Sending to Grusher: ".$data, 'light green');
+					$amiEvent['Event'] = null;
+				}
+			break;
+
+			case "BridgeLeave":
+				echo color("Event: ".$amiEvent['Event'], 'light blue');
+				$data =[
+	        		'type' => "call_end",
 	        		'uniq_id' => $amiEvent['Uniqueid'],
 	        	];
 	        	$data = json_encode($data);
 	        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
 	        	echo color("Sending to Grusher: ".$data, 'light green');
-			//}
-			$amiEvent['Event'] = null;
-		break;
+	        	$amiEvent['Event'] = null;
+			break;
+			default:
+				$amiEvent = $ami->getEvent($event);
+				print_r($amiEvent);
+			break;
+		}
+	}while ( Utils::check_asterisk_status() );
 
-		case "AgentConnect":
-			echo color("Event: ".$amiEvent['Event'], 'light blue');
-			@preg_match_all("/\D*\/(\d*)[-@]\d*/", $amiEvent['Channel'],$match);
-			$phone_answered = 0;
-			if(isset($match[1]) and isset($match[1][0])){
-				$phone_answered = $match[1][0];
-			}
-			$data =[
-				'type' => $amiEvent['Event'],
-				'phone_answered' => $phone_answered,
-				'duration_ring' => @$amiEvent['RingTime'],
-				'duration_hold' => @$amiEvent['HoldTime'],
-				'uniq_id' => $amiEvent['Uniqueid'],
-			];
-			$data = json_encode($data);
-			echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
-			echo color("Sending to Grusher: ".$data, 'light green');
-			$amiEvent['Event'] = null;
-		break;
-		case "AgentComplete":
-			echo color("Event: ".$amiEvent['Event'], 'light blue');
+}else if($asterisk_type == 2){ //ast 11
+	$event = [
+		//'All',
+		'Newstate',
+		'NewCallerid',
+		'AgentConnect',
+		'AgentComplete',
+		'SoftHangupRequest',
+	];
+	echo color("Waiting for this events: ".implode (", ", $event), 'light yellow');
+	$ami = new Ami();
+
+	//Filter some events or All;
+
+	do {
+		switch ( @$amiEvent['Event'] ) {
+			// call go to asterisk
+			case "NewCallerid":
+				echo color("Event: ".$amiEvent['Event'], 'light blue');
+				//Skipping out numbers
+	        	include (dirname(__FILE__)."/local_phones.php");
+	        	if (in_array(trim($amiEvent['CallerIDNum']), $local_phones)){
+	        	if (in_array(trim($amiEvent['CallerIDNum']), $local_phones)){
+		            $call_direction = "OUT";
+		            echo color("OUT CALL: ".$amiEvent['CallerIDNum'] ." - Ignoring", 'light red');
+	        	}else{
+		        	$call_direction = "IN";
+		        	$data =[
+		        		'type' => "call_new",
+		        		'phone_called' => $amiEvent['CallerIDNum'],
+		        		'uniq_id' => $amiEvent['Uniqueid'],
+		        	];
+		        	$data = json_encode($data);
+		        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+		        	echo color("Sending to Grusher: ".$data, 'light green');
+				}
+				$amiEvent['Event'] = null;
+			break;
+			// call go to operator
+			case "Newstate":
+				if(isset($amiEvent['ChannelState']) and ($amiEvent['ChannelState'] == 5)){
+					echo color("Event: ".$amiEvent['Event'], 'light blue');
+					@preg_match_all("/\D*\/(\d*)[-@]\d*/", $amiEvent['Channel'],$match);
+					$phone_called_to = 0;
+					if(isset($match[1]) and isset($match[1][0])){
+						$phone_called_to = $match[1][0];
+					}
+					$data =[
+						'type' => "call_called",
+						'call_called' => $phone_called_to,
+						'uniq_id' => $amiEvent['Uniqueid'],
+					];
+					$data = json_encode($data);
+					echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
+					echo color("Sending to Grusher: ".$data, 'light green');
+					$amiEvent['Event'] = null;
+				}
+			break;
+			// call go to operator and operator is answered
+			case "AgentConnect":
+				echo color("Event: ".$amiEvent['Event'], 'light blue');
+				@preg_match_all("/\D*\/(\d*)[-@]\d*/", $amiEvent['Channel'],$match);
+				$phone_answered = 0;
+				if(isset($match[1]) and isset($match[1][0])){
+					$phone_answered = $match[1][0];
+				}
 				$data =[
-				'type' => $amiEvent['Event'],
-				'duration_bill' => @$amiEvent['TalkTime'],
-				'duration_hold' => @$amiEvent['HoldTime'],
-				'uniq_id' => $amiEvent['Uniqueid'],
-			];
-			$data = json_encode($data);
-			echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
-			echo color("Sending to Grusher: ".$data, 'light green');
-			$amiEvent['Event'] = null;
-		break;
-		case "SoftHangupRequest":
-			echo color("Event: ".$amiEvent['Event'], 'light blue');
-			$data =[
-        		'type' => $amiEvent['Event'],
-        		'uniq_id' => $amiEvent['Uniqueid'],
-        	];
-        	$data = json_encode($data);
-        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
-        	echo color("Sending to Grusher: ".$data, 'light green');
-        	$amiEvent['Event'] = null;
-		break;
+					'type' => "call_answer",
+					'phone_answered' => $phone_answered,
+					'duration_ring' => @$amiEvent['RingTime'],
+					'duration_hold' => @$amiEvent['HoldTime'],
+					'uniq_id' => $amiEvent['Uniqueid'],
+				];
+				$data = json_encode($data);
+				echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
+				echo color("Sending to Grusher: ".$data, 'light green');
+				$amiEvent['Event'] = null;
+			break;
+			// end call
+			case "AgentComplete":
+				echo color("Event: ".$amiEvent['Event'], 'light blue');
+					$data =[
+					'type' => "call_end",
+					'duration_bill' => @$amiEvent['TalkTime'],
+					'duration_hold' => @$amiEvent['HoldTime'],
+					'uniq_id' => $amiEvent['Uniqueid'],
+				];
+				$data = json_encode($data);
+				echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
+				echo color("Sending to Grusher: ".$data, 'light green');
+				$amiEvent['Event'] = null;
+			break;
+			// end call unknown reason
+			case "SoftHangupRequest":
+				echo color("Event: ".$amiEvent['Event'], 'light blue');
+				$data =[
+	        		'type' => "call_end_permanent",
+	        		'uniq_id' => $amiEvent['Uniqueid'],
+	        	];
+	        	$data = json_encode($data);
+	        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+	        	echo color("Sending to Grusher: ".$data, 'light green');
+	        	$amiEvent['Event'] = null;
+			break;
+			default:
+				$amiEvent = $ami->getEvent($event);
+				//print_r($amiEvent);
+			break;
+		}
+	}while ( Utils::check_asterisk_status() );
+}else if($asterisk_type == 3){ //ast > 11
+	$event = [
+		'Newchannel',
+		'BridgeEnter',
+		'BridgeLeave',
+	];
+	echo color("Waiting for this events: ".implode (", ", $event), 'light yellow');
+	$ami = new Ami();
 
-		default:
-			$amiEvent = $ami->getEvent($event);
-			//print_r($amiEvent);
-		break;
-	}
+	//Filter some events or All;
+
+	do {
+		switch ( @$amiEvent['Event'] ) {
+			// call go to asterisk
+			case "Newchannel":
+				if(isset($amiEvent['ChannelState']) and ($amiEvent['ChannelState'] == 0)){
+					print_r($amiEvent);
+					if($amiEvent['CallerIDNum'] == '<unknown>') break;
+					if($amiEvent['CallerIDNum'] == '') break;
+
+					$data =[
+		        		'type' => "call_new",
+		        		'phone_called' => $amiEvent['CallerIDNum'],
+		        		'uniq_id' => $amiEvent['Uniqueid'],
+		        	];
+		        	$data = json_encode($data);
+		        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+		        	echo color("Sending to Grusher: ".$data, 'light green');
+					$amiEvent['Event'] = null;
+				}
+			break;
+			case "NewCallerid":
+				if(isset($amiEvent['ChannelState']) and ($amiEvent['ChannelState'] == 4)){
+					print_r($amiEvent);
+					if($amiEvent['CallerIDNum'] == '<unknown>') break;
+					if($amiEvent['CallerIDNum'] == '') break;
+
+					$data =[
+		        		'type' => "call_new",
+		        		'phone_called' => $amiEvent['CallerIDNum'],
+		        		'uniq_id' => $amiEvent['Uniqueid'],
+		        	];
+		        	$data = json_encode($data);
+		        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+		        	echo color("Sending to Grusher: ".$data, 'light green');
+					$amiEvent['Event'] = null;
+				}
+			break;
+
+			case "DialBegin":
+				if(isset($amiEvent['DestChannelState']) and (($amiEvent['DestChannelState'] == 0) or ($amiEvent['DestChannelState'] == 5))){
+					print_r($amiEvent);
+					if($amiEvent['DestUniqueid'] == ''){
+						$amiEvent['DestUniqueid'] = $amiEvent['Uniqueid'];
+					} 
+
+					if($amiEvent['DestCallerIDNum'] == '<unknown>') $amiEvent['DestCallerIDNum'] = $amiEvent['DialString'];
+					if($amiEvent['DestCallerIDNum'] == '') $amiEvent['DestCallerIDNum'] = $amiEvent['DialString'];
+					@preg_match_all("/[a-z]*\/?([^@]*)/i", $amiEvent['DestCallerIDNum'],$match);
+					$phone_to_called = 0;
+					if(isset($match[1]) and isset($match[1][0])){
+						$phone_to_called = $match[1][0];
+					}else{
+						$phone_to_called = $amiEvent['DestCallerIDNum'];
+					}
+					$data =[
+		        		'type' => "call_calling",
+		        		'phone_to_called' => $phone_to_called,
+		        		'uniq_id' => $amiEvent['Uniqueid'],
+		        		'dest_uniq_id' => $amiEvent['DestUniqueid'],
+		        	];
+		        	$data = json_encode($data);
+		        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+		        	echo color("Sending to Grusher: ".$data, 'light green');
+					$amiEvent['Event'] = null;
+				}
+			break;
+			case "BridgeEnter":
+				if(isset($amiEvent['ChannelState']) and isset($amiEvent['BridgeNumChannels']) and ($amiEvent['ChannelState'] == 6) and ($amiEvent['BridgeNumChannels'] == 1)){
+					echo color("Event: ".$amiEvent['Event'], 'light blue');
+					@preg_match_all("/\D*\/(\d*)[-@]\d*/", $amiEvent['Channel'],$match);
+					$phone_answered = 0;
+					if(isset($match[1]) and isset($match[1][0])){
+						$phone_answered = $match[1][0];
+					}
+					$data =[
+		        		'type' => "AgentConnect",
+		        		'phone_answered' => $phone_answered,
+		        		'uniq_id' => $amiEvent['Uniqueid'],
+		        	];
+		        	$data = json_encode($data);
+		        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+		        	echo color("Sending to Grusher: ".$data, 'light green');
+					$amiEvent['Event'] = null;
+				}
+			break;
+			case "BridgeLeave":
+				echo color("Event: ".$amiEvent['Event'], 'light blue');
+				$data =[
+	        		'type' => 'call_end',
+	        		'uniq_id' => $amiEvent['Uniqueid'],
+	        	];
+	        	$data = json_encode($data);
+	        	echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data'");
+	        	echo color("Sending to Grusher: ".$data, 'light green');
+	        	$amiEvent['Event'] = null;
+			break;
+			default:
+				$amiEvent = $ami->getEvent($event);
+				print_r($amiEvent);
+			break;
+		}
+	}while ( Utils::check_asterisk_status() );
+
 }
 
-while ( Utils::check_asterisk_status() );
+
+
+
 
 function color($content, $color=null)
     {

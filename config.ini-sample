@@ -6,3 +6,4 @@ port = 5038
 
 [GrusherData]
 path = '/var/www/html'
+asterisk_type = 2
