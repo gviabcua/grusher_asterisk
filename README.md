@@ -5,4 +5,4 @@
 - rename config.ini-sample to config.ini
 - set up config.ini
 - add to cron
-*/1 * * * *  /usr/bin/php /opt/grusher_ami/run.php >> /tmp/asterisk-`/bin/date +\%Y\%m\%d`.log  2>&1
+*/1 * * * *  /usr/bin/php /opt/grusher_ami/run.php start -d >> /tmp/asterisk-`/bin/date +\%Y\%m\%d`.log  2>&1

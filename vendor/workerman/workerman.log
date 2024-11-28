@@ -1,0 +1,1567 @@
+2024-11-28 10:19:58 pid:43336 Workerman[start.php] start in DAEMON mode
+2024-11-28 10:20:14 pid:43360 Workerman[start.php] start in DAEMON mode
+2024-11-28 10:20:14 pid:43360 Workerman[start.php] already running
+2024-11-28 10:20:18 pid:43367 Workerman[start.php] stop 
+2024-11-28 10:20:18 pid:43367 Workerman[start.php] is stopping ...
+2024-11-28 10:20:18 pid:43338 Workerman[start.php] stopping ...
+2024-11-28 10:20:18 pid:43338 Workerman[start.php] has been stopped
+2024-11-28 10:20:18 pid:43367 Workerman[start.php] stop success
+2024-11-28 10:20:29 pid:43389 Workerman[start.php] start in DAEMON mode
+2024-11-28 10:20:32 pid:43397 Workerman[start.php] stop 
+2024-11-28 10:20:32 pid:43397 Workerman[start.php] is stopping ...
+2024-11-28 10:20:32 pid:43391 Workerman[start.php] stopping ...
+2024-11-28 10:20:32 pid:43391 Workerman[start.php] has been stopped
+2024-11-28 10:20:32 pid:43397 Workerman[start.php] stop success
+2024-11-28 10:20:35 pid:43401 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:20:56 pid:43401 Workerman[start.php] stopping ...
+2024-11-28 10:20:56 pid:43401 Workerman[start.php] has been stopped
+2024-11-28 10:21:18 pid:43643 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:21:22 pid:43643 Workerman[start.php] stopping ...
+2024-11-28 10:21:22 pid:43643 Workerman[start.php] has been stopped
+2024-11-28 10:22:18 pid:43965 Workerman[start.php] start in DAEMON mode
+2024-11-28 10:22:21 pid:43972 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:22:21 pid:43972 Workerman[start.php] already running
+2024-11-28 10:22:33 pid:44018 Workerman[start.php] status 
+2024-11-28 10:22:59 pid:44269 Workerman[start.php] connections 
+2024-11-28 10:23:23 pid:44341 Workerman[start.php] reload 
+2024-11-28 10:23:23 pid:43967 Workerman[start.php] reloading
+2024-11-28 10:23:26 pid:44345 Workerman[start.php] reload 
+2024-11-28 10:23:26 pid:43967 Workerman[start.php] reloading
+2024-11-28 10:23:30 pid:44366 Workerman[start.php] reload 
+2024-11-28 10:23:30 pid:43967 Workerman[start.php] reloading
+2024-11-28 10:23:37 pid:44373 Workerman[start.php] status 
+2024-11-28 10:23:37 pid:44346 worker[44346] remains 0 connection(s)
+2024-11-28 10:23:42 pid:44431 Workerman[start.php] status 
+2024-11-28 10:23:56 pid:44653 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:23:56 pid:44653 Workerman[start.php] already running
+2024-11-28 10:24:01 pid:44657 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:24:01 pid:44657 Workerman[start.php] already running
+2024-11-28 10:24:04 pid:44662 Workerman[start.php] start in DAEMON mode
+2024-11-28 10:24:04 pid:44662 Workerman[start.php] already running
+2024-11-28 10:24:09 pid:44666 Workerman[start.php] stop 
+2024-11-28 10:24:09 pid:44666 Workerman[start.php] is stopping ...
+2024-11-28 10:24:09 pid:43967 Workerman[start.php] stopping ...
+2024-11-28 10:24:09 pid:43967 Workerman[start.php] has been stopped
+2024-11-28 10:24:09 pid:44666 Workerman[start.php] stop success
+2024-11-28 10:24:12 pid:44668 Workerman[start.php] start in DAEMON mode
+2024-11-28 10:24:17 pid:44677 Workerman[start.php] stop 
+2024-11-28 10:24:17 pid:44677 Workerman[start.php] is stopping ...
+2024-11-28 10:24:17 pid:44670 Workerman[start.php] stopping ...
+2024-11-28 10:24:17 pid:44670 Workerman[start.php] has been stopped
+2024-11-28 10:24:17 pid:44677 Workerman[start.php] stop success
+2024-11-28 10:24:18 pid:44679 Workerman[start.php] stop 
+2024-11-28 10:24:18 pid:44679 Workerman[start.php] not run
+2024-11-28 10:24:21 pid:44685 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:27:37 pid:44685 Workerman[start.php] stopping ...
+2024-11-28 10:27:37 pid:44685 Workerman[start.php] has been stopped
+2024-11-28 10:27:38 pid:45732 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:27:41 pid:45732 Workerman[start.php] stopping ...
+2024-11-28 10:27:41 pid:45732 Workerman[start.php] has been stopped
+2024-11-28 10:30:05 pid:46620 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:30:21 pid:46620 Workerman[start.php] stopping ...
+2024-11-28 10:30:21 pid:46620 Workerman[start.php] has been stopped
+2024-11-28 10:30:54 pid:46893 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:30:56 pid:46893 Workerman[start.php] stopping ...
+2024-11-28 10:30:56 pid:46893 Workerman[start.php] has been stopped
+2024-11-28 10:31:57 pid:47224 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:34:45 pid:47224 Workerman[start.php] stopping ...
+2024-11-28 10:34:45 pid:47224 Workerman[start.php] has been stopped
+2024-11-28 10:34:46 pid:48183 Workerman[start.php] start in DEBUG mode
+2024-11-28 10:34:47 pid:48183 Workerman[start.php] stopping ...
+2024-11-28 10:34:47 pid:48183 Workerman[start.php] has been stopped
+2024-11-28 11:00:48 pid:56615 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:00:50 pid:56615 Workerman[start.php] stopping ...
+2024-11-28 11:00:50 pid:56615 Workerman[start.php] has been stopped
+2024-11-28 11:01:13 pid:56853 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:01:13 pid:56856 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(561): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#10 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#11 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56856] exit with status 64000
+2024-11-28 11:01:13 pid:56857 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56857] exit with status 64000
+2024-11-28 11:01:13 pid:56858 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56858] exit with status 64000
+2024-11-28 11:01:13 pid:56859 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56859] exit with status 64000
+2024-11-28 11:01:13 pid:56860 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56860] exit with status 64000
+2024-11-28 11:01:13 pid:56861 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56861] exit with status 64000
+2024-11-28 11:01:13 pid:56862 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56862] exit with status 64000
+2024-11-28 11:01:13 pid:56863 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56863] exit with status 64000
+2024-11-28 11:01:13 pid:56864 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56864] exit with status 64000
+2024-11-28 11:01:13 pid:56865 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56865] exit with status 64000
+2024-11-28 11:01:13 pid:56866 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56866] exit with status 64000
+2024-11-28 11:01:13 pid:56867 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56867] exit with status 64000
+2024-11-28 11:01:13 pid:56868 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56868] exit with status 64000
+2024-11-28 11:01:13 pid:56869 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:13 pid:56853 worker[none:56869] exit with status 64000
+2024-11-28 11:01:13 pid:56870 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56870] exit with status 64000
+2024-11-28 11:01:14 pid:56871 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56871] exit with status 64000
+2024-11-28 11:01:14 pid:56872 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56872] exit with status 64000
+2024-11-28 11:01:14 pid:56873 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56873] exit with status 64000
+2024-11-28 11:01:14 pid:56874 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56874] exit with status 64000
+2024-11-28 11:01:14 pid:56875 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56875] exit with status 64000
+2024-11-28 11:01:14 pid:56876 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56876] exit with status 64000
+2024-11-28 11:01:14 pid:56878 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56878] exit with status 64000
+2024-11-28 11:01:14 pid:56879 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56879] exit with status 64000
+2024-11-28 11:01:14 pid:56880 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56880] exit with status 64000
+2024-11-28 11:01:14 pid:56881 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56881] exit with status 64000
+2024-11-28 11:01:14 pid:56882 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56882] exit with status 64000
+2024-11-28 11:01:14 pid:56883 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56883] exit with status 64000
+2024-11-28 11:01:14 pid:56884 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56884] exit with status 64000
+2024-11-28 11:01:14 pid:56885 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56885] exit with status 64000
+2024-11-28 11:01:14 pid:56886 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56886] exit with status 64000
+2024-11-28 11:01:14 pid:56887 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56887] exit with status 64000
+2024-11-28 11:01:14 pid:56888 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56888] exit with status 64000
+2024-11-28 11:01:14 pid:56889 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56889] exit with status 64000
+2024-11-28 11:01:14 pid:56890 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56890] exit with status 64000
+2024-11-28 11:01:14 pid:56891 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56891] exit with status 64000
+2024-11-28 11:01:14 pid:56892 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56892] exit with status 64000
+2024-11-28 11:01:14 pid:56893 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56893] exit with status 64000
+2024-11-28 11:01:14 pid:56894 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56894] exit with status 64000
+2024-11-28 11:01:14 pid:56895 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56895] exit with status 64000
+2024-11-28 11:01:14 pid:56896 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56896] exit with status 64000
+2024-11-28 11:01:14 pid:56897 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56897] exit with status 64000
+2024-11-28 11:01:14 pid:56898 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56898] exit with status 64000
+2024-11-28 11:01:14 pid:56899 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56899] exit with status 64000
+2024-11-28 11:01:14 pid:56900 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56900] exit with status 64000
+2024-11-28 11:01:14 pid:56901 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56901] exit with status 64000
+2024-11-28 11:01:14 pid:56902 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56902] exit with status 64000
+2024-11-28 11:01:14 pid:56903 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56903] exit with status 64000
+2024-11-28 11:01:14 pid:56904 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56904] exit with status 64000
+2024-11-28 11:01:14 pid:56905 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56905] exit with status 64000
+2024-11-28 11:01:14 pid:56906 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56906] exit with status 64000
+2024-11-28 11:01:14 pid:56907 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56907] exit with status 64000
+2024-11-28 11:01:14 pid:56908 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56908] exit with status 64000
+2024-11-28 11:01:14 pid:56909 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56909] exit with status 64000
+2024-11-28 11:01:14 pid:56910 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56910] exit with status 64000
+2024-11-28 11:01:14 pid:56911 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56911] exit with status 64000
+2024-11-28 11:01:14 pid:56912 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56912] exit with status 64000
+2024-11-28 11:01:14 pid:56913 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56913] exit with status 64000
+2024-11-28 11:01:14 pid:56914 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56914] exit with status 64000
+2024-11-28 11:01:14 pid:56915 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56915] exit with status 64000
+2024-11-28 11:01:14 pid:56916 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56916] exit with status 64000
+2024-11-28 11:01:14 pid:56917 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56917] exit with status 64000
+2024-11-28 11:01:14 pid:56918 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56918] exit with status 64000
+2024-11-28 11:01:14 pid:56919 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 worker[none:56919] exit with status 64000
+2024-11-28 11:01:14 pid:56920 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#11 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#12 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#13 {main}
+2024-11-28 11:01:14 pid:56853 Workerman[start.php] stopping ...
+2024-11-28 11:01:14 pid:56853 Workerman[start.php] has been stopped
+2024-11-28 11:03:51 pid:57802 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:03:51 pid:57805 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(561): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#11 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#12 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57805] exit with status 64000
+2024-11-28 11:03:51 pid:57807 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57807] exit with status 64000
+2024-11-28 11:03:51 pid:57808 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57808] exit with status 64000
+2024-11-28 11:03:51 pid:57809 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57809] exit with status 64000
+2024-11-28 11:03:51 pid:57810 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57810] exit with status 64000
+2024-11-28 11:03:51 pid:57811 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57811] exit with status 64000
+2024-11-28 11:03:51 pid:57812 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57812] exit with status 64000
+2024-11-28 11:03:51 pid:57813 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57813] exit with status 64000
+2024-11-28 11:03:51 pid:57814 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57814] exit with status 64000
+2024-11-28 11:03:51 pid:57815 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57815] exit with status 64000
+2024-11-28 11:03:51 pid:57816 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57816] exit with status 64000
+2024-11-28 11:03:51 pid:57817 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57817] exit with status 64000
+2024-11-28 11:03:51 pid:57818 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57818] exit with status 64000
+2024-11-28 11:03:51 pid:57819 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57819] exit with status 64000
+2024-11-28 11:03:51 pid:57820 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57820] exit with status 64000
+2024-11-28 11:03:51 pid:57821 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57821] exit with status 64000
+2024-11-28 11:03:51 pid:57822 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57822] exit with status 64000
+2024-11-28 11:03:51 pid:57823 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 worker[none:57823] exit with status 64000
+2024-11-28 11:03:51 pid:57824 TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/gviabcua/Стільниця/ami/ami_new/start.php:115
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(115): implode()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1869): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1805): Workerman\Worker::monitorWorkersForLinux()
+#11 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(563): Workerman\Worker::monitorWorkers()
+#12 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#13 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#14 {main}
+2024-11-28 11:03:51 pid:57802 Workerman[start.php] stopping ...
+2024-11-28 11:03:51 pid:57802 Workerman[start.php] has been stopped
+2024-11-28 11:04:16 pid:58085 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:04:17 pid:58088 Error: Call to a member function getEvent() on null in /home/gviabcua/Стільниця/ami/ami_new/start.php:209
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#3 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(561): Workerman\Worker::forkWorkers()
+#9 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#10 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#11 {main}
+2024-11-28 11:04:17 pid:58085 worker[none:58088] exit with status 64000
+2024-11-28 11:04:17 pid:58085 Workerman[start.php] stopping ...
+2024-11-28 11:04:17 pid:58085 Workerman[start.php] has been stopped
+2024-11-28 11:05:27 pid:58392 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:06:32 pid:58395 TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/gviabcua/Стільниця/ami/ami_new/start.php:124
+Stack trace:
+#0 /home/gviabcua/Стільниця/ami/ami_new/start.php(124): in_array()
+#1 [internal function]: {closure}()
+#2 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(32): call_user_func_array()
+#3 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(75): AMIListener\AMIListener->call()
+#4 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Connection/TcpConnection.php(667): AMIListener\AMIListener->AMIListener\{closure}()
+#5 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#6 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1719): Workerman\Events\Select->loop()
+#7 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1510): Workerman\Worker::forkOneWorkerForLinux()
+#8 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(1484): Workerman\Worker::forkWorkersForLinux()
+#9 /home/gviabcua/Стільниця/ami/ami_new/vendor/workerman/workerman/Worker.php(561): Workerman\Worker::forkWorkers()
+#10 /home/gviabcua/Стільниця/ami/ami_new/src/AMIListener.php(87): Workerman\Worker::runAll()
+#11 /home/gviabcua/Стільниця/ami/ami_new/start.php(349): AMIListener\AMIListener->start()
+#12 {main}
+2024-11-28 11:06:32 pid:58392 worker[none:58395] exit with status 64000
+2024-11-28 11:06:34 pid:58392 Workerman[start.php] stopping ...
+2024-11-28 11:06:34 pid:58392 Workerman[start.php] has been stopped
+2024-11-28 11:06:53 pid:58725 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:07:11 pid:58725 Workerman[start.php] stopping ...
+2024-11-28 11:07:11 pid:58725 Workerman[start.php] has been stopped
+2024-11-28 11:12:42 pid:6862 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:13:42 pid:6862 Workerman[start.php] stopping ...
+2024-11-28 11:13:42 pid:6862 Workerman[start.php] has been stopped
+2024-11-28 11:13:43 pid:7322 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:14:00 pid:7322 Workerman[start.php] stopping ...
+2024-11-28 11:14:00 pid:7322 Workerman[start.php] has been stopped
+2024-11-28 11:14:01 pid:7545 Workerman[start.php] start in DEBUG mode
+2024-11-28 11:16:04 pid:7545 Workerman[start.php] stopping ...
+2024-11-28 11:16:04 pid:7545 Workerman[start.php] has been stopped
+2024-11-28 11:16:13 pid:8157 Workerman[run.php] start in DEBUG mode
+2024-11-28 11:16:15 pid:8157 Workerman[run.php] stopping ...
+2024-11-28 11:16:15 pid:8157 Workerman[run.php] has been stopped
+2024-11-28 11:16:17 pid:8167 Workerman[run.php] start in DAEMON mode
+2024-11-28 11:16:25 pid:8206 Workerman[run.php] stop 
+2024-11-28 11:16:25 pid:8206 Workerman[run.php] is gracefully stopping ...
+2024-11-28 11:16:25 pid:8171 Workerman[run.php] stopping ...
+2024-11-28 11:16:38 pid:8229 Workerman[run.php] stop 
+2024-11-28 11:16:38 pid:8229 Workerman[run.php] is stopping ...
+2024-11-28 11:16:38 pid:8171 Workerman[run.php] stopping ...
+2024-11-28 11:16:38 pid:8171 Workerman[run.php] has been stopped
+2024-11-28 11:16:38 pid:8229 Workerman[run.php] stop success
+2024-11-28 11:16:41 pid:8232 Workerman[run.php] stop 
+2024-11-28 11:16:41 pid:8232 Workerman[run.php] not run
