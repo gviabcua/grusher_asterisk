@@ -58,6 +58,10 @@ if($asterisk_type == 1){//ast > 11
                         'type' => "call_new",
                         'phone_called' => $parameter['Exten'],
                         'uniq_id' => $parameter['Uniqueid'],
+                        'direction' => "IN",
+                        'disposition' => "in_call",
+                        'call_via' => "some_trank",
+                        'queue' => 'main_queue',
                     ];
                     $data = json_encode($data);
                     echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
@@ -127,6 +131,10 @@ if($asterisk_type == 1){//ast > 11
                         'type' => "call_new",
                         'phone_called' => $parameter['CallerIDNum'],
                         'uniq_id' => $parameter['Uniqueid'],
+                        'direction' => "IN",
+                        'disposition' => "in_call",
+                        'call_via' => "some_trank",
+                        'queue' => 'main_queue',
                     ];
                     $data = json_encode($data);
                     echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
@@ -243,6 +251,10 @@ if($asterisk_type == 1){//ast > 11
                         'type' => "call_new",
                         'phone_called' => $parameter['CallerIDNum'],
                         'uniq_id' => $parameter['Uniqueid'],
+                        'direction' => "IN",
+                        'disposition' => "in_call",
+                        'call_via' => "some_trank",
+                        'queue' => 'main_queue',
                     ];
                     $data = json_encode($data);
                     echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
