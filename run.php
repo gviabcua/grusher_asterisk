@@ -7,6 +7,7 @@ $configFileName = "config.ini";
 $config = parse_ini_file($configFileName, true);
 $GrusherDataPath = $config['GrusherData']['path'];
 $asterisk_type = $config['GrusherData']['asterisk_type'];
+$skip_out_call = $config['GrusherData']['skip_out_call'];
 echo color("Grusher path $GrusherDataPath", 'light yellow');
 $php_path = exec ('which php');
 echo color("PHP path $php_path", 'light yellow');
@@ -58,10 +59,6 @@ if($asterisk_type == 1){//ast > 11
                         'type' => "call_new",
                         'phone_called' => $parameter['Exten'],
                         'uniq_id' => $parameter['Uniqueid'],
-                        'direction' => "IN",
-                        'disposition' => "in_call",
-                        'call_via' => "some_trank",
-                        'queue' => 'main_queue',
                     ];
                     $data = json_encode($data);
                     echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
@@ -123,18 +120,31 @@ if($asterisk_type == 1){//ast > 11
                 //Skipping out numbers
                 include (dirname(__FILE__)."/local_phones.php");
                 if (in_array(trim($parameter['CallerIDNum']), $local_phones)){
-                    $call_direction = "OUT";
-                    echo color("OUT CALL: ".$parameter['CallerIDNum'] ." - Ignoring", 'light red');
+                    if($skip_out_call == 1){
+                        $data =[
+                            'type' => "call_new",
+                            'phone_called' => $parameter['CallerIDNum'],
+                            'uniq_id' => $parameter['Uniqueid'],
+                            'direction' => "OUT",
+                            'disposition' => (isset($parameter['Disposition']) ? $parameter['Disposition'] : null),
+                            'call_via' => "some_trank",
+                            'queue' => (isset($parameter['Queue']) ? $parameter['Queue'] : null),
+                        ];
+                        $data = json_encode($data);
+                        echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
+                        echo color("Sending to Grusher: ".$data, 'light green');
+                    }else{
+                        echo color("OUT CALL: ".$parameter['CallerIDNum'] ." - Ignoring", 'light red');
+                    }
                 }else{
-                    $call_direction = "IN";
                     $data =[
                         'type' => "call_new",
                         'phone_called' => $parameter['CallerIDNum'],
                         'uniq_id' => $parameter['Uniqueid'],
                         'direction' => "IN",
-                        'disposition' => "in_call",
+                        'disposition' => (isset($parameter['Disposition']) ? $parameter['Disposition'] : null),
                         'call_via' => "some_trank",
-                        'queue' => 'main_queue',
+                        'queue' => (isset($parameter['Queue']) ? $parameter['Queue'] : null),
                     ];
                     $data = json_encode($data);
                     echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");
@@ -251,10 +261,6 @@ if($asterisk_type == 1){//ast > 11
                         'type' => "call_new",
                         'phone_called' => $parameter['CallerIDNum'],
                         'uniq_id' => $parameter['Uniqueid'],
-                        'direction' => "IN",
-                        'disposition' => "in_call",
-                        'call_via' => "some_trank",
-                        'queue' => 'main_queue',
                     ];
                     $data = json_encode($data);
                     echo exec($Grusher_artisan_full_path." grusher:asterisk_get '$data' &");

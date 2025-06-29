@@ -1,5 +1,6 @@
 # Grusher Asterisk AMI
 ## This is for test now
+### You can modify this. It just a sample
 ## Installation
 - unpack to /opt (or other folder)
 - rename config.ini-sample to config.ini
