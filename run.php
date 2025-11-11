@@ -151,12 +151,12 @@ $ami->addListener(function($parameter) use ($asterisk_type, $Grusher_artisan_ful
                             }
                         }
                     }elseif (isset($parameter['Uniqueid'])){
-                        $data =[
-                            'type' => "call_answer",
-                            'uniq_id' => isset($parameter['Uniqueid']),
-                            'disposition' => "ANSWERED",
-                        ];
-                        sendToGrusher($data, $Grusher_artisan_full_path);
+                        //$data =[
+                        //    'type' => "call_answer",
+                        //    'uniq_id' => isset($parameter['Uniqueid']),
+                        //    'disposition' => "ANSWERED",
+                        //];
+                        //sendToGrusher($data, $Grusher_artisan_full_path);
                     }
                 break;
                 case "Newstate":
@@ -164,21 +164,25 @@ $ami->addListener(function($parameter) use ($asterisk_type, $Grusher_artisan_ful
                     if(isset($parameter['ChannelState'])){
                         switch((int)$parameter['ChannelState']){
                             case 4: // incoming call 
-                               /* if(($parameter['CallerIDNum'] == '<unknown>') or ($parameter['CallerIDNum'] == '')){
+                                if(($parameter['CallerIDNum'] == '<unknown>') or ($parameter['CallerIDNum'] == '')){
                                     echo color("Event: ".$parameter['Event'] ."- Received empty number", 'light blue');
                                     return;
+                                }
+                                if(is_sip($parameter['Channel'])){
+                                    $direction = "OUT";
+                                }else{
+                                    $direction = "IN";
                                 }
                                 $data =[
                                     'type' => "call_new",
                                     'phone_called' => $parameter['CallerIDNum'],
                                     'uniq_id' => $parameter['Uniqueid'],
-                                    //'direction' => "IN",
-                                    //'disposition' => (isset($parameter['Disposition']) ? $parameter['Disposition'] : null),
-                                    'call_via' => "some_trank",
+                                    'direction' => $direction,
+                                    'call_via' => $parameter['Channel'],
                                     'queue' => (isset($parameter['Queue']) ? $parameter['Queue'] : null),
                                 ];
                                 sendToGrusher($data, $Grusher_artisan_full_path);
-                                */
+                                
                             break;
                             case 5: // ring
                                 if(isset($parameter['Channel'])){
@@ -194,7 +198,6 @@ $ami->addListener(function($parameter) use ($asterisk_type, $Grusher_artisan_ful
                                 }
                             break;
                             case 6: // hang up
-                                //print_r($parameter);
                                 if(isset($parameter['Location'])){
                                     $phone_answered = extractExtension($parameter['Location']);
                                     if($phone_answered == 0){
@@ -343,7 +346,6 @@ $ami->addListener(function($parameter) use ($asterisk_type, $Grusher_artisan_ful
                 // call go to asterisk
                 case "Newchannel":
                     if(isset($parameter['ChannelState']) and ($parameter['ChannelState'] == 0)){
-                        //print_r($parameter);
                         if($parameter['CallerIDNum'] == '<unknown>') break;
                         if($parameter['CallerIDNum'] == '') break;
 
@@ -357,7 +359,6 @@ $ami->addListener(function($parameter) use ($asterisk_type, $Grusher_artisan_ful
                 break;
                 case "NewCallerid":
                     if(isset($parameter['ChannelState']) and ($parameter['ChannelState'] == 4)){
-                        //print_r($parameter);
                         if($parameter['CallerIDNum'] == '<unknown>') break;
                         if($parameter['CallerIDNum'] == '') break;
 
@@ -372,7 +373,6 @@ $ami->addListener(function($parameter) use ($asterisk_type, $Grusher_artisan_ful
 
                 case "DialBegin":
                     if(isset($parameter['DestChannelState']) and (($parameter['DestChannelState'] == 0) or ($parameter['DestChannelState'] == 5))){
-                        //print_r($parameter);
                         if($parameter['DestUniqueid'] == ''){
                             $parameter['DestUniqueid'] = $parameter['Uniqueid'];
                         } 
