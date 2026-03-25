@@ -58,7 +58,7 @@ class AMIListener
     private function scheduleReconnect($connection)
     {
         if ($this->reconnectAttempts >= $this->maxReconnectAttempts) {
-            $this->log("Досягнуто максимальну кількість спроб підключення ({$this->maxReconnectAttempts}). Зупиняємо воркер.");
+            $this->log("Досягнуто максимальну кількість спроб підключення. Зупиняємо воркер.");
             Worker::stopAll();
             return;
         }
@@ -66,24 +66,35 @@ class AMIListener
         $this->reconnectAttempts++;
         $this->log("Плануємо реконект, спроба {$this->reconnectAttempts}/{$this->maxReconnectAttempts} через {$this->reconnectDelay}с");
 
-        Timer::delAll(); // очищаємо всі таймери перед новим підключенням
+        // Видаляємо тільки свої таймери, остальні лишаємо
+        if ($this->keepAliveTimerId !== null) {
+            Timer::del($this->keepAliveTimerId);
+            $this->keepAliveTimerId = null;
+        }
+        if ($this->heartbeatTimerId !== null) {
+            Timer::del($this->heartbeatTimerId);
+            $this->heartbeatTimerId = null;
+        }
 
         Timer::add($this->reconnectDelay, function () use ($connection) {
+            $this->log("Виконуємо реконект...");
             $connection->connect();
         }, null, false);
     }
 
     private function startKeepAlive($connection)
     {
+        // Видаляємо старий таймер, якщо він є
         if ($this->keepAliveTimerId !== null) {
             Timer::del($this->keepAliveTimerId);
+            $this->keepAliveTimerId = null;
         }
 
         $this->keepAliveTimerId = Timer::add(30, function () use ($connection) {
-            // Правильна перевірка статусу в Workerman 4.x
+            // Пінгуємо ТІЛЬКИ якщо з'єднання активне і ми залогінені
             if ($connection->getStatus() === TcpConnection::STATUS_ESTABLISH && $this->loggedIn) {
                 $connection->send("Action: Ping\r\n\r\n");
-                $this->log("→ Ping (keep-alive)");
+                $this->log("-> Ping (keep-alive)");
             }
         }, null, true);
     }
@@ -92,13 +103,13 @@ class AMIListener
     {
         if ($this->heartbeatTimerId !== null) {
             Timer::del($this->heartbeatTimerId);
+            $this->heartbeatTimerId = null;
         }
 
-        // Якщо більше 120 секунд не було жодної події — примусово перез’єднуємось
         $this->heartbeatTimerId = Timer::add(60, function () use ($connection) {
             if ($this->loggedIn && (time() - $this->lastEventTime > 120)) {
-                $this->log("WARNING: Не було подій більше 2 хвилин → примусовий reconnect");
-                $connection->close();
+                $this->log("WARNING: Не було жодних подій більше 120 секунд -> примусовий реконект");
+                $connection->close();   // це викличе onClose -> scheduleReconnect
             }
         }, null, true);
     }
@@ -127,37 +138,37 @@ class AMIListener
         if (isset($parameters['Response'])) {
             if ($parameters['Response'] === 'Success') {
                 $this->loggedIn = true;
-                $this->log("Успішний логін в AMI");
                 $this->updateLastEventTime();
-            } elseif ($parameters['Response'] === 'Error') {
+                $this->log("Успішний логін в AMI");
+            } 
+            elseif ($parameters['Response'] === 'Error') {
                 $this->log("Помилка логіну: " . ($parameters['Message'] ?? 'невідомо'));
                 $connection->close();
                 return;
             }
         }
 
+        // Обробка Pong
+        if (isset($parameters['Response']) && $parameters['Response'] === 'Pong') {
+            $this->updateLastEventTime();
+            $this->log("<- Pong");
+            return;
+        }
+
         // Викликаємо всі зареєстровані обробники
         foreach ($this->listeners as $listener) {
-            if ($listener["event"] === "" ||
-                (isset($parameters["Event"]) &&
-                    ((is_array($listener["event"]) && in_array($parameters["Event"], $listener["event"])) ||
-                     $parameters["Event"] === $listener["event"]))) {
-
+            if ($listener["event"] === "" || (isset($parameters["Event"]) && ((is_array($listener["event"]) && in_array($parameters["Event"], $listener["event"])) || $parameters["Event"] === $listener["event"]))) {
                 call_user_func_array($listener["function"], [$parameters, $connection]);
             }
         }
-
         $this->updateLastEventTime();
     }
 
     public function start($autoReconnect = true)
     {
         $worker = new Worker();
-
         $worker->onWorkerStart = function () use ($autoReconnect) {
-
             $connection = new AsyncTcpConnection('tcp://' . $this->host . ':' . $this->port);
-
             $connection->onError = function (TcpConnection $connection, $code, $msg) use ($autoReconnect) {
                 $this->log("Помилка з'єднання: $code - $msg");
                 $this->loggedIn = false;
@@ -177,30 +188,31 @@ class AMIListener
                 $connection->send("Username: " . $this->username . "\r\n");
                 $connection->send("Secret: " . $this->secret . "\r\n\r\n");
 
+                // Таймери запускаємо відразу, але вони нічого не робитимуть, поки $this->loggedIn === false
                 $this->startKeepAlive($connection);
                 $this->startHeartbeat($connection);
             };
 
             $connection->onMessage = function (TcpConnection $connection, $data) {
-
                 $this->partialBuffer .= $data;
 
-                // Захист від переповнення буфера
                 if (strlen($this->partialBuffer) > self::MAX_BUFFER_SIZE) {
                     $this->log("WARNING: Буфер перевищив " . self::MAX_BUFFER_SIZE . " байт — очищаємо");
                     $this->partialBuffer = '';
                     return;
                 }
 
-                // Нормалізуємо роздільники та розбиваємо на повні події
-                $normalized = str_replace("\r\n", "\n", $this->partialBuffer);
+                // Кращий спосіб розбору AMI (працює стабільніше)
+                $normalized = str_replace(["\r\n", "\r"], "\n", $this->partialBuffer);
                 $events = explode("\n\n", $normalized);
 
                 // Останній (можливо неповний) блок залишаємо в буфері
                 $this->partialBuffer = array_pop($events);
 
                 foreach ($events as $eventBlock) {
-                    $this->processEventBlock($eventBlock, $connection);
+                    if (trim($eventBlock) !== '') {
+                        $this->processEventBlock($eventBlock, $connection);
+                    }
                 }
             };
 
