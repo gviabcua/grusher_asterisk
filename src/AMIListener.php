@@ -66,7 +66,6 @@ class AMIListener
         $this->reconnectAttempts++;
         $this->log("Плануємо реконект, спроба {$this->reconnectAttempts}/{$this->maxReconnectAttempts} через {$this->reconnectDelay}с");
 
-        // Видаляємо тільки свої таймери, остальні лишаємо
         if ($this->keepAliveTimerId !== null) {
             Timer::del($this->keepAliveTimerId);
             $this->keepAliveTimerId = null;
@@ -76,10 +75,8 @@ class AMIListener
             $this->heartbeatTimerId = null;
         }
 
-        Timer::add($this->reconnectDelay, function () use ($connection) {
-            $this->log("Виконуємо реконект...");
-            $connection->connect();
-        }, null, false);
+        // ВАЖЛИВО: Використовуємо вбудований метод Workerman для реконекту
+        $connection->reconnect($this->reconnectDelay);
     }
 
     private function startKeepAlive($connection)
@@ -134,31 +131,47 @@ class AMIListener
 
         if (empty($parameters)) return;
 
-        // Обробка відповіді на Login
+        // ВАЖЛИВО: Спочатку перевіряємо чи це відповідь на Ping (Pong)
+        if (isset($parameters['Response']) && $parameters['Response'] === 'Success' && isset($parameters['Ping']) && $parameters['Ping'] === 'Pong') {
+            $this->updateLastEventTime();
+            $this->log("<- Pong отриманий (keep-alive)");
+            return;
+        }
+
+        // Обробка відповіді на Login та інших команд
         if (isset($parameters['Response'])) {
-            if ($parameters['Response'] === 'Success') {
+            if ($parameters['Response'] === 'Success' && !isset($parameters['Ping'])) {
                 $this->loggedIn = true;
                 $this->updateLastEventTime();
                 $this->log("Успішний логін в AMI");
+                return;
             } 
             elseif ($parameters['Response'] === 'Error') {
-                $this->log("Помилка логіну: " . ($parameters['Message'] ?? 'невідомо'));
-                $connection->close();
+                $message = $parameters['Message'] ?? 'невідомо';
+                
+                // Якщо пароль невірний - це критично, зупиняємось
+                if (stripos($message, 'Authentication failed') !== false) {
+                    $this->log("Критична помилка логіну: невірний логін або пароль.");
+                    $connection->close();
+                    return;
+                }
+                
+                // Якщо це синтаксична помилка (як Missing action), просто логуємо, але працюємо далі
+                $this->log("AMI Помилка (не критична): " . $message);
                 return;
             }
-        }
-
-        // Обробка Pong
-        if (isset($parameters['Response']) && $parameters['Response'] === 'Pong') {
-            $this->updateLastEventTime();
-            $this->log("<- Pong");
-            return;
         }
 
         // Викликаємо всі зареєстровані обробники
         foreach ($this->listeners as $listener) {
             if ($listener["event"] === "" || (isset($parameters["Event"]) && ((is_array($listener["event"]) && in_array($parameters["Event"], $listener["event"])) || $parameters["Event"] === $listener["event"]))) {
-                call_user_func_array($listener["function"], [$parameters, $connection]);
+                //call_user_func_array($listener["function"], [$parameters, $connection]);
+                try {
+                    //call_user_func($listener['function'], $parameters);
+                    call_user_func_array($listener["function"], [$parameters, $connection]);
+                } catch (\Throwable $e) {
+                    $this->log("ПОМИЛКА в обробнику події: " . $e->getMessage());
+                }
             }
         }
         $this->updateLastEventTime();
@@ -177,20 +190,25 @@ class AMIListener
                 }
             };
 
-            $connection->onConnect = function (TcpConnection $connection) {
-                $this->log("З'єднання з Asterisk AMI відкрито");
+            $connection->onConnect = function ($connection) {
                 $this->resetReconnectAttempts();
-                $this->partialBuffer = '';
-                $this->loggedIn = false;
+                $this->log("З'єднання з Asterisk AMI відкрито");
 
-                // Логін
-                $connection->send("Action: Login\r\n");
-                $connection->send("Username: " . $this->username . "\r\n");
-                $connection->send("Secret: " . $this->secret . "\r\n\r\n");
+                // Пакет логіну має бути монолітним
+                $loginData = "Action: Login\r\n" .
+                             "Username: {$this->username}\r\n" .
+                             "Secret: {$this->secret}\r\n" .
+                             "Events: on\r\n\r\n";
+                
+                $connection->send($loginData);
 
-                // Таймери запускаємо відразу, але вони нічого не робитимуть, поки $this->loggedIn === false
-                $this->startKeepAlive($connection);
-                $this->startHeartbeat($connection);
+                // Таймер пінгу (keep-alive)
+                $this->keepAliveTimerId = Timer::add(30, function () use ($connection) {
+                    // Відправляємо тільки якщо з'єднання ще живе
+                    if ($connection->getStatus() === TcpConnection::STATUS_ESTABLISHED) {
+                        $connection->send("Action: Ping\r\n\r\n");
+                    }
+                });
             };
 
             $connection->onMessage = function (TcpConnection $connection, $data) {

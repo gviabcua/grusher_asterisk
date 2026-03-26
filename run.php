@@ -7,7 +7,7 @@ $configFileName = "config.ini";
 $config = parse_ini_file($configFileName, true);
 $GrusherDataPath = $config['GrusherData']['path'];
 $asterisk_type = $config['GrusherData']['asterisk_type'];
-$skip_out_call = $config['GrusherData']['skip_out_call'];
+//$skip_out_call = $config['GrusherData']['skip_out_call'];
 echo color("Grusher path $GrusherDataPath", 'light yellow');
 $php_path = exec ('which php');
 echo color("PHP path $php_path", 'light yellow');
