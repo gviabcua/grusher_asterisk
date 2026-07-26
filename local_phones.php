@@ -2,7 +2,8 @@
 $local_phones = 
 [
 /* write local phone from here via comma*/
-/*  NOT WORKING NOW */
+	'111111',
+	'2222',
 /* write local phone to here */
 ];
 $skipped_phones = 
